@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<body>  
+<header>
+<meta charset="UTF-8">
+<link href="survey.css" rel="stylesheet">
+<h1 id="title">Sign up to stay on top of news</h1>
+<p id="description"><i>Stay on top of all the news in the gaming world!</i></p>
+</header>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <form id="survey-form" class="survey-form">
+  <div class="form1">
+    <p class="information"><label id="name-label" for="name"><strong>Name</strong></label></p>
+    <input type="text" name="name" id="name" class="control" placeholder="Enter your name" required/>
+    
+    <p class="information"><label id="email-label" for="email"><strong>E-mail</strong></label></p>
+    <input type="email" name="email" id="email" class="control" placeholder="Enter your E-mail" required/>
+    
+    
+      <p class="information"><label id="number-label" for="number"><strong>Age</strong></label></p>
+    <input type="number" name="Number" id="number" class="control" min="13" max="200" placeholder="Age" required/>
+    
+     
+       <p>What is your game profile?</p>
+       <select id="dropdown" name="occupation" class="control" required>
+         <option disabled selected value>Select your play style</option>
+         <option value="casual">Casual games</option>
+         <option value="online-games">Online games</option>
+         <option value="competitive">Competitive games</opition>
+         <option value="E-sports">E-sports</option>
+       </select>
+  </div>
+    
+  <div class="radio">
+    <p>How often would you like to receive updates ?</p> 
+    <label><input name="preference" value="diary" type="radio" classe="input-radio" checked>Diary</input></label>
+    <label><input name="preference" value="weekly" type="radio" classe="input-radio">Weekly</label>
+    <label ><input name="preference" value="monthly" type="radio" classe="input-radio">Monthly</label>
+  </div>
+<div class="checkbox">
+  <p>What other game styles would you like to receive news from?</p>
+  <label><input type="checkbox" name="new-game" class="input-checkbox" value="old-games">Old games</label>
+  <label><input type="checkbox" name="new-game" class="input-checkbox" value="indies-games">Indies games</label>
+  <label><input type="checkbox" name="new-game" class="input-checkbox" value="nostalgic-games">Nostalgic games</label>
+  <label><input type="checkbox" name="new-game" class="input-checkbox" value="fighting-games">Fighting games</label>
+  <label><input type="checkbox" name="new-game" class="input-checkbox" value="adventure-games">Adventure Games</label>
+  <label><input type="checkbox" name="new-game" class="input-checkbox" value="puzle-games">Puzzle games</label>
+  <label><input type="checkbox" name="new-game" class="input-checkbox" value="RPG-games">RPG games</label>
+  <label><input type="checkbox" name="new-game" class="input-checkbox" value="mmo-games">MMO games</label>
+  <label><input type="checkbox" name="new-game" class="input-checkbox" value="recent-releases">Recent releases</label>
+</div>
+<div class="text-area">
+  <p>Something missing? Leave your suggestions and comments:</p>
+  <textarea name="comments" class="comment-area" placeholder="Leave your comment"></textarea>
+  <button id="submit" type="submit" class="submit-button">Submit</button>
+</div>
+</form>
+</body>
+</html>
