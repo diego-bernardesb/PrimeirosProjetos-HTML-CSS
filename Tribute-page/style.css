@@ -1,0 +1,42 @@
+body{
+    text-align:center;
+  }
+  #image-caption{
+    text-align:center;
+    font-family: Arial;
+    
+  }
+  #title{
+    font-size: 100px;
+    font-family: 'lobster', Time New Roman;
+    text-align: center;
+  }
+  h5{
+    text-align:center;
+    font-size: 30px;
+  }
+  p{
+    font-family: arial;
+    font-size: 18px;
+    text-align: justify;
+    color: black;
+    }
+  h2{
+    text-align: left;
+  }
+  #main{
+    text-align: center;
+    font-size: 18px;
+  }
+  #musics{
+    text-align: left;
+    color:black; 
+  }
+  #image{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+  .link{
+    color: black;
+  }
